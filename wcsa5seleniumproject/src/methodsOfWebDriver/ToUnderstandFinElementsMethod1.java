@@ -23,7 +23,7 @@ public class ToUnderstandFinElementsMethod1 {
 				//System.out.println(bikesOption);
 				//Thread.sleep(1000);
 		//	}
-			for(WebElement we:bike) {
+			for(WebElement we:bikes) {
 				String bikesOption=we.getText();
 				System.out.println(bikesOption);
 				Thread.sleep(1000);
